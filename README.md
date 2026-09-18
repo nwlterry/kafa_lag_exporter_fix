@@ -1,5 +1,10 @@
 # kafka-lag-exporter / Control Center Lag Fix
 
+## Layout
+
+Runbook repository: the Control Center lag emitter and kafka-lag-exporter steps stay in this README.
+
+
 **Repository:** [nwlterry/kafa_lag_exporter_fix](https://github.com/nwlterry/kafa_lag_exporter_fix)  
 **Upstream exporter:** [seglo/kafka-lag-exporter](https://github.com/seglo/kafka-lag-exporter) (archived 17 Mar 2024)
 
@@ -289,3 +294,7 @@ Prefer CLI + native emitter (or a maintained exporter) for production alerts. Co
 ---
 
 *Updated Aug 2026 — VM + Confluent Platform 7.7.2. Primary fix: enable broker lag emitter + ensure Control Center Normal mode and healthy internal lag. Secondary: restart kafka-lag-exporter (and flush Redis if used).*
+
+---
+
+See [GROUP.md](GROUP.md) for sibling repositories. Catalog: https://github.com/nwlterry/nwlterry
